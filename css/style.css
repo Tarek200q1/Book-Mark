@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #eed3b1; */
+  /* background-image: linear-gradient(
+    to right,
+    green,
+    indigo,
+    violet
+  ); */
+  /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
+  background-image: linear-gradient(
+    -225deg,
+    #ff3cac 0%,
+    #562b7c 52%,
+    #2b86c5 100%
+  );
+  /* background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%); */
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  position: relative;
+}
+h1::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 35%;
+  left: 34.5%;
+  bottom: 2px;
+  background-color: #fec260;
+  transition: height 350ms;
+  z-index: -1;
+}
+h1:hover::before {
+  height: 70%;
+}
+.bookmarkt-body {
+  margin-top: 60px;
+  border-width: 3px 0 3px 0;
+  border-style: dotted;
+  border-color: black;
+}
+.font-h {
+  color: rgb(13, 187, 114);
+  font-family: "Edu QLD Beginner", cursive;
+  font-size: 40px;
+  font-weight: bold;
+}
+.font-i {
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.cont {
+  font-weight: bold;
+  font-size: 22px;
+}
+.icon-u {
+  font-size: 15px;
+  padding-right: 7px;
+}
+.site-name {
+  font-size: 20px;
+}
+.teex {
+  font-weight: bold;
+  color: black;
+}
